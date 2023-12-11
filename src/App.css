@@ -1,0 +1,11 @@
+body {
+  background-image: url("/public/bg-main-mobile.png");
+
+  background-size: 100vw 30vh;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  body {
+    background-size: 30vw 100vh;
+  }
+}
